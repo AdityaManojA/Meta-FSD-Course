@@ -1,2 +1,2 @@
 var Person="John";
-console.log(Person);
+console.log("hello",Person);
