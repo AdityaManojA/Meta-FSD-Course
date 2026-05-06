@@ -5,3 +5,7 @@ for (let i=1 ; i<15;i++){
         break;
     }
 }
+
+  for(var i = 0; i <= 5; i++) {
+    console.log("Hello");
+  }
