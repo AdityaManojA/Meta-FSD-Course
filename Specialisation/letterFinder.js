@@ -6,5 +6,5 @@ function letterFinder(arr,word){
     }
 }
 
-diet=['chicken','rice','fish','veggies','salads']
+var diet=['chicken','rice','fish','veggies','salads']
 letterFinder(diet,"fish");
