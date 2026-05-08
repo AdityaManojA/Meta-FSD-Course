@@ -13,3 +13,12 @@ var assistantManager = {
     specialAbility: "young and ambitious",
     greeting: "Let's make some money"
 }
+
+
+var table = {
+    legs: 3,
+    color: "brown",
+    priceUSD: 100,
+}
+console.log(table)
+console.log(table.priceUSD);
