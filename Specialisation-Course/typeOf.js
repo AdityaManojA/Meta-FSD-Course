@@ -1,0 +1,6 @@
+console.log(typeof(1))
+console.log(typeof("hello"))
+console.log(typeof(true))
+console.log(typeof(1>2))
+console.log(typeof([]))
+console.log(typeof({property:"1"}))
