@@ -40,3 +40,10 @@ function manager() {
    
 }
 
+// Print the intern object
+console.log("--- Intern Object ---");
+console.log(intern());
+
+// Print the manager object
+console.log("\n--- Manager Object ---");
+console.log(manager());
