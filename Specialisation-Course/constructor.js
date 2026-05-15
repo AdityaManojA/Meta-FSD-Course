@@ -23,3 +23,6 @@
 
     var result = new Dog();
     console.log(result.legs);
+
+
+    
