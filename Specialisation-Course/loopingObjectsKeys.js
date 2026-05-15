@@ -8,3 +8,6 @@ var clothingItem = {
 for( const key of Object.keys(clothingItem) ) {
     console.log(key, ":", clothingItem[key])
 }
+for( const key in Object.keys(clothingItem) ) {
+    console.log(key)
+}
