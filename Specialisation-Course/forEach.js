@@ -14,3 +14,7 @@ nums.forEach(num=>console.log(num*2))
 nums.forEach((number2)=>{
     console.log(`${number2*2}`);
 });
+
+const veggies = ['onion', 'garlic', 'potato'];
+
+veggies.forEach((value2,index)=>console.log(`${value2}`))
