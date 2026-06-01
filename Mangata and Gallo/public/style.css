@@ -20,13 +20,27 @@ body {
     border-bottom: 1px solid #e5dfd3;
 }
 
-.main-logo {
-    font-size: 2.5rem;
-    font-weight: 300;
-    letter-spacing: 0.35em;
-    color: #1a1a1a;
-    text-align: center;
-    margin-bottom: 0.2rem;
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.main-logo-img {
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.main-logo-img-nav{
+    width: 200px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .tagline {
@@ -222,20 +236,10 @@ body {
     }
 }
 
-.footer-logo {
-    font-size: 1.8rem;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    color: #1a1a1a;
-    border: 1px solid #1a1a1a;
-    padding: 0.2rem 0.6rem;
-    margin-bottom: 0.5rem;
-}
-
-.footer-logo-zone p {
-    font-size: 0.7rem;
-    letter-spacing: 0.3em;
-    color: #9a8055;
+.footer-logo-img {
+    width: 120px;
+    height: auto;
+    display: block;
 }
 
 .footer-copy-zone {
