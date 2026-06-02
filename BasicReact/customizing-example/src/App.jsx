@@ -6,7 +6,8 @@ function App() {
   return (
   <div>
     <h1>Welcome</h1>
-    <Heading/>  
+    <Heading firstname="Aditya"/>  
+    <Heading firstname="Naina"/> 
   </div>
   );
 };
