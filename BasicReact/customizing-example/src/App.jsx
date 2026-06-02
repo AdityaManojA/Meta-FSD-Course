@@ -7,7 +7,7 @@ function App() {
   <div>
     <h1>Welcome</h1>
     <Heading firstname="Aditya"/>  
-    <Heading firstname="Naina"/> 
+    <Heading firstname="Akshay"/> 
   </div>
   );
 };
