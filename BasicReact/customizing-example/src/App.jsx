@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Heading from './components/Header'
 
 function App() {
@@ -5,9 +6,13 @@ function App() {
 
   return (
   <div>
-    <h1>Welcome</h1>
+
+    <h1>Welcome,</h1>
+
     <Heading firstname="Aditya"/>  
-    <Heading firstname="Akshay"/> 
+
+    <Footer footer="Parent" foot="Child"/>
+
   </div>
   );
 };
