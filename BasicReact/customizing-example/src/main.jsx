@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Footer from './components/Footer.jsx'
 import Heading from './components/Header.jsx'
+import Greeting from './components/Naina.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
