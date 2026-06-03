@@ -1,5 +1,6 @@
 import Footer from './components/Footer';
 import Heading from './components/Header'
+import ModeToggle from './components/Toggle';
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
 
     <Heading firstname="Aditya"/>  
 
-    <Footer footer="Parent" foot="Child"/>
+    <ModeToggle/>
 
   </div>
   );
